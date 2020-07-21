@@ -11,7 +11,7 @@ namespace FitnessVictoryCollector
             {
                 var postReader = new PostReader();
                 var postProcessor = new PostProcessor();
-                var postWriter = new PostWriter("C:/Users/Isaac/Desktop/tmp");
+                var postWriter = new PostWriter("C:/tmp");
 
                 var victoryPosts = await postReader.GetVictoryPosts(new DateTime(2015, 1, 1));
 
